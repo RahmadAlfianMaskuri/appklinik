@@ -10,6 +10,10 @@
             "src": "/medilab/assets/(.*)",
             "dest": "/medilab/assets/$1"
           },
+          {
+            "src": "/sbadmin2/(.*)",
+            "dest": "/sbadmin2/$1"
+          },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
