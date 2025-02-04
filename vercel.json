@@ -11,8 +11,20 @@
             "dest": "/medilab/assets/$1"
           },
           {
-            "src": "/sbadmin2/(.*)",
-            "dest": "/sbadmin2/$1"
+            "src": "/sbadmin2/css/(.*)",
+            "dest": "/sbadmin2/css/$1"
+          },
+          {
+            "src": "/sbadmin2/img/(.*)",
+            "dest": "/sbadmin2/img/$1"
+          },
+          {
+            "src": "/sbadmin2/scss/(.*)",
+            "dest": "/sbadmin2/scss/$1"
+          },
+          {
+            "src": "/sbadmin2/vendor/(.*)",
+            "dest": "/sbadmin2/vendor/$1"
           },
         {
             "src": "/(.*)",
